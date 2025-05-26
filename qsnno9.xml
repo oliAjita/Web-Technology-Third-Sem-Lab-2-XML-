@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="qsnno9.xslt"?>
+<subjects>
+  <subject>
+    <name>Algo</name>
+    <chapter>
+      <chapter1>Greedy Algo</chapter1>
+      <chapter2>Randomised Algo</chapter2>
+      <chapter3>Searching Algo</chapter3>
+      <chapter4>Sorting Algo</chapter4>
+    </chapter>    
+  </subject>
+  <subject>
+    <name>Data Structures</name>
+    <chapter>
+      <chapter1>Array</chapter1>
+      <chapter2>Stack</chapter2>
+      <chapter3>Queue</chapter3>
+      <chapter4>Linked List</chapter4>
+    </chapter>  
+  </subject>
+  <subject>
+    <name>Web Technology</name>
+    <chapter>
+      <chapter1>HTML</chapter1>
+      <chapter2>CSS</chapter2>
+      <chapter3>Java Script</chapter3>
+      <chapter4>PHP</chapter4>
+    </chapter>  
+  </subject>
+  <subject>
+    <name>Languages</name>
+    <chapter>
+      <chapter1>C/C++</chapter1>
+      <chapter2>Java</chapter2>
+      <chapter3>Python</chapter3>
+      <chapter4>Ruby</chapter4>
+    </chapter>  
+  </subject>
+  <subject>
+    <name>DBMS</name>
+    <chapter>
+      <chapter1>Basics</chapter1>
+      <chapter2>ER Diagram</chapter2>
+      <chapter3>Normalization</chapter3>
+      <chapter4>Transaction Concepts</chapter4>
+    </chapter>  
+  </subject>
+</subjects>

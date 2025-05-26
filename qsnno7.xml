@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno7.xsd">
+  <movie id="1">
+    <title>Pashupati Prasad</title>
+    <year>2020</year>
+    <_director name="Dipendra K. Khanal">Dipendra K .Khanal</_director>
+    <comment lang="english"></comment>
+    <newcomment></newcomment>
+  </movie>
+  <movie id="2">
+    <title>Jatrai Jatra</title>
+    <year>2021</year>
+    <_director name="Pradip Bhattarai">Pradip Bhattarai</_director>
+    <comment lang="english"></comment>
+    <newcomment></newcomment>
+  </movie>
+</movies>

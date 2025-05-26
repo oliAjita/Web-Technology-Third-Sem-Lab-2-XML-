@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno5.xsd">
+  <student rollno="10">
+    <name>
+      <firstname>Prajwal</firstname>
+    <middlename></middlename>
+    <lastname>Bhattarai</lastname>
+    </name>
+    <email>prajwalbhattarai1official@gmail.com</email>
+    <phone>9712345678</phone>
+    <address>
+      <permanent>Koshi Province</permanent>
+      <temporary>Bagmati Province</temporary>
+    </address>
+    <DOB type="AD">2000-12-05</DOB>
+  </student>
+</students>

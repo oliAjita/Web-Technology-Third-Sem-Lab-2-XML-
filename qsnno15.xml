@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno15.xsd">
+  <employee>
+    <post>MDean</post>
+    <salary>50000</salary>
+    <gender>Male</gender>
+    <username>khemraj@123</username>
+    <password>deankhem</password>
+  </employee>
+  <employee>
+    <post>Ass.Dean</post>
+    <salary>30000</salary>
+    <gender>Female</gender>
+    <username>sarita@tu</username>
+    <password>sarita32</password>
+  </employee>
+</tu>

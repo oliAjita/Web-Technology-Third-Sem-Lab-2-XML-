@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<school id="s123" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno6.xsd">
+  <name>Shree Janajyoti Madhyamik Bidyamandir</name>
+  <locations>
+    <location>Balkumari, Lalitpur</location>  
+    <location>PatanDhoka, Lalitpur</location>
+  </locations>
+  <staffs>
+    <staff id="st456">
+      <name>Ramesh Singh Saud</name>
+      <title>Mr</title>
+      <category>academic</category>
+      <address>
+        <street>Krishna Galli, 3rd Street, Patan</street>
+        <suburb>PatanDhoka</suburb>
+        <postcode>44600</postcode>
+      </address>
+    </staff>
+    <staff id="st789">
+      <name>Krishna Chapagain</name>
+      <title>Mr</title>  
+      <category>technical</category>
+      <address>
+        <street>Newroad, 4th Street, Kathmandu</street>    
+        <suburb>Pipalbot</suburb>
+        <postcode>44600</postcode>
+      </address>
+    </staff>
+  </staffs>
+  <subjects>
+    <subject id="sub111">
+      <name>Web Technology</name>
+      <description>This subject is related to web development.</description>    
+      <capacity>7</capacity>  
+      <Staff-Ref id="st456"/>
+      <Staff-Ref id="st789"/>
+    </subject> 
+    <subject id="sub222">
+      <name>Data Structures and Algorithms</name>
+      <description>This subject is related to techniques of storing data and writing their algorithms.</description>    
+      <capacity>400</capacity>
+      <Staff-Ref id="st456"/>
+    </subject>
+  </subjects>
+</school>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student" maxOccurs="unbounded">
+          <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" >
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="firstname" type="xs:string"/>
+                      <xs:element name="middlename" type="xs:string" minOccurs="0"/>
+                      <xs:element name="lastname" type="xs:string"/>
+                    </xs:sequence>                  
+                  </xs:complexType>                
+                </xs:element> 
+                <xs:element name="email" type="emailType"/>
+                <xs:element name="phone" type="phoneType"/>
+                <xs:element name="address" >
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="permanent" type="xs:string" minOccurs="1"/>
+                      <xs:element name="temporary" type="xs:string" minOccurs="0"/>
+                    </xs:sequence>
+                  </xs:complexType>                
+                </xs:element>
+               <xs:element name="DOB">
+                <xs:complexType>
+                  <xs:simpleContent>
+                   <xs:extension base="DateType">
+                    <xs:attribute name="type" type="xs:string" use="required" />
+                   </xs:extension>
+                  </xs:simpleContent>
+               </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+              <xs:attribute name="rollno" type="xs:string"/>
+          </xs:complexType>        
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="phoneType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(98|97)\d{8}"/>
+    </xs:restriction>  
+  </xs:simpleType>
+  <xs:simpleType name="emailType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"/>
+    </xs:restriction>  
+  </xs:simpleType>
+  <xs:simpleType name="DateType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{4}-\d{2}-\d{2}" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

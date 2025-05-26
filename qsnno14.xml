@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="qsnno14.xslt"?>
+<catalog>
+  <book id="bk101">
+    <author>Gambardella, Matthew</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price>44.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </book>
+  <book id="bk102">
+    <author>Parijat</author>
+    <title>Sirish Ko Phool</title>
+    <genre>Novel</genre>
+    <price>500</price>
+    <publish_date>1990-10-01</publish_date>
+    <description>A novel awarded by Madan Puraskar.</description>
+  </book>
+  <book id="bk103">
+    <author>Narayan Wagle</author>
+    <title>Palpasa Cafe</title>
+    <genre>Novel</genre>
+    <price>600</price>
+    <publish_date>1980-11-01</publish_date>
+    <description>A modern classic that tells the story of a young artist.</description>
+  </book>
+  <book id="bk104">
+    <author>Buddhisagar</author>
+    <title>Karnali Blues</title>
+    <genre>Novel</genre>
+    <price>550</price>
+    <publish_date>1985-07-01</publish_date>
+    <description>A coming-of-age novel that tells the story of a young boy growing up in a remote village of Nepal.</description>
+  </book>
+  <book id="bk105">
+    <author>Diamond Shumsher Rana</author>
+    <title>Seto Bagh</title>
+    <genre>Novel</genre>
+    <price>700</price>
+    <publish_date>1976-03-11</publish_date>
+    <description>Seto Bagh is a historical novel set in the Rana period that tells the story of a tiger hunt gone wrong.</description>
+  </book>
+</catalog>
