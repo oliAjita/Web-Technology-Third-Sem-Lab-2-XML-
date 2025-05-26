@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--FOR DTD File Validation Link-->
+<!DOCTYPE books SYSTEM "qsnno2.dtd">
+<!--For XSD File Validation Link-->
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno2_2.xsd">
+<book>
+    <title>Web Technology</title>
+   <authorname>Basanta Chapagain</authorname>
+    <isbn_no>123456-78</isbn_no>
+    <publisher>KEC Publications</publisher>
+    <edition>Fifth Edition</edition>
+    <price>800</price>
+  </book>
+  <book>
+    <title>Data Structure and Algorithm</title>
+   <authorname>Roshan Tandukar</authorname>
+    <isbn_no>14564-524</isbn_no>
+    <publisher>KEC Publications</publisher>
+    <edition>Nineth Edition</edition>
+    <price>700</price>
+  </book>
+</books>

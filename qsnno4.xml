@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno4.xsd">
+  <book ISBN="123-698">
+    <title>Web Technology</title>
+    <authors>
+      <author author_title="mr">
+        <name>
+          <first_name>Basanta</first_name>
+          <middle_name></middle_name>
+          <last_name>Chapagain</last_name>
+        </name>
+        <phone>9812345678</phone>
+        <email>chapagainbasanta1@gmail.com</email>
+      </author>
+    </authors>
+    <page_no>300</page_no>
+    <price currency="NPR">500</price>
+  </book>
+  <book ISBN="5648-658">
+    <title>System Analysis and Design</title>
+    <authors>
+      <author author_title="ms">
+        <name>
+          <first_name>Sunita</first_name>
+          <middle_name>Kumari</middle_name>
+          <last_name>Magar</last_name>
+        </name>
+        <phone>9864521578</phone>
+        <email>sunitaofficial15@gmail.com</email>
+      </author>
+    </authors>
+    <page_no>350</page_no>
+    <price currency="INR">600</price>
+  </book>
+</books>

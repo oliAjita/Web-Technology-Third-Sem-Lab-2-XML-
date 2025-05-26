@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno17.xsd">
+  <salesman>
+    <name title="pb">
+      <first>prajwal</first>
+      <middle></middle>
+      <last>bhattarai</last>
+    </name>
+    <phone type="personal">9812345678</phone> 
+    <area>patandhoka</area>
+    <records>
+      <record>
+        <product id="1547">
+          <sku>17865</sku>
+          <product_name>Acer nitro 5</product_name>
+        </product>
+        <quantity>5</quantity>
+        <price currency="inr">250000</price>
+        <date type="ad">2022</date>
+      </record>
+       <record>
+        <product id="5558">
+          <sku>6584</sku>
+          <product_name>Hp Pavilion 15</product_name>
+        </product>
+        <quantity>10</quantity>
+        <price currency="npr">1000000</price>
+        <date type="bs">2080</date>
+      </record>    
+    </records>
+  </salesman>
+</sales>

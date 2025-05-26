@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+  <song>
+    <name>Pokhara Ma</name>
+    <singer>Pramod Kharel</singer>
+    <compose_by>Ram Babu Gurung</compose_by>
+    <length>3 minutes 20 seconds</length>
+  </song>
+  <song>
+    <name>Tirkha Lagyo</name>
+    <singer>Anju Panta</singer>
+    <compose_by>Krishna Maharjan</compose_by>
+    <length>4 minutes 40 seconds</length>
+  </song>
+  <song>
+    <name>Gajalu Ti Thula Thula Akha</name>
+    <singer>Narayan Gopal</singer>
+    <compose_by>Prem Dhoj Pradhan</compose_by>
+    <length>3 minutes 05 seconds</length>
+  </song>
+  <song>
+    <name>Manai Control Hudeina</name>
+    <singer>Pramod Kharel</singer>
+    <compose_by>Hari Raj Bishowkarma</compose_by>
+    <length>4 minutes 35 seconds</length>
+  </song>
+</songs>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="qsnno8.xsl"?>
+<oceans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno8.xsd">
+  <ocean>
+    <name>Artic</name>
+    <Area>13,000 million km^2</Area>
+    <Meandepth>1,200m</Meandepth>
+  </ocean>
+  <ocean>
+    <name>Atlantic</name> 
+    <Area>87,000 million km^2</Area>
+    <Meandepth>3,900m</Meandepth>
+  </ocean>
+  <ocean>
+    <name>Pacific</name>
+    <Area>1,80,000 million km^2</Area>
+    <Meandepth>4,000m</Meandepth>
+  </ocean>
+  <ocean>
+    <name>Indian</name>
+    <Area>75,000 million km^2</Area>
+    <Meandepth>3,900m</Meandepth>
+  </ocean>
+  <ocean>
+    <name>Southern</name>
+    <Area>20,000 million km^2</Area>
+    <Meandepth>4,500m</Meandepth>
+  </ocean>
+</oceans>

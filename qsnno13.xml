@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qsnno13.xsd">
+  <patient>
+    <name>
+      <first>Ram</first>
+      <middle>Bahadur</middle>
+      <last>Gurung</last>    
+    </name>
+    <number>12345</number>
+    <doctorname>Krishna Shakya</doctorname>
+    <diseases>
+      <disease>Gastric</disease>
+      <disease>Sugar</disease>
+    </diseases>
+    <consultation_charge>4500</consultation_charge>
+    <lab_tests>
+      <lab_test>Blood Test</lab_test>
+      <lab_test>Thyroid Test</lab_test>
+    </lab_tests>
+  </patient>
+</hospital>

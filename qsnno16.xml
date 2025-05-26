@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="qsnno16.xslt"?>
+<products>
+  <product>
+   <product_name>samsung s20 ultra</product_name>
+   <category>mobile phone</category>
+    <price>120000</price>
+    <quantity>9</quantity>
+  </product>
+   <product>
+   <product_name>iphone 15</product_name>
+   <category>mobile phone</category>
+    <price>130000</price>
+    <quantity>12</quantity>
+  </product>
+   <product>
+   <product_name>acer nitro 5</product_name>
+   <category>laptop</category>
+    <price>125000</price>
+    <quantity>11</quantity>
+  </product>
+</products>
